@@ -25,6 +25,7 @@ public class HomePage {
 		// TODO Auto-generated method stub
 		waitForVisibilityOf(locator, 8);
 		find(locator).sendKeys(strArg1);
+		System.out.println("Git Demo Master");
 		Thread.sleep(5000);
 	}
 
