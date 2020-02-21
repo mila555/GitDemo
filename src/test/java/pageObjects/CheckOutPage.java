@@ -26,6 +26,7 @@ public class CheckOutPage {
 		// TODO Auto-generated method stub
 		waitForVisibilityOf(locator, 10);
 		find(locator).sendKeys(strArg1);
+		System.out.println("branch creation");
 		Thread.sleep(5000);
 	}
 
