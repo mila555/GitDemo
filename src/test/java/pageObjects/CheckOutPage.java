@@ -12,7 +12,7 @@ public class CheckOutPage {
 
 	public WebDriver driver;
 
-	public void HomePage(WebDriver driver) {
+	public void CheckOutPage(WebDriver driver) {
 		this.driver = driver;
 	}
 
@@ -67,6 +67,7 @@ public class CheckOutPage {
 		
 		String NL;
 		NL = find(NameLocator).getText();
+		System.out.println("print");
 		return NL;
 		
 				

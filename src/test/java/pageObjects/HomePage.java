@@ -26,6 +26,7 @@ public class HomePage {
 		waitForVisibilityOf(locator, 8);
 		find(locator).sendKeys(strArg1);
 		System.out.println("Git Demo Master");
+		System.out.println("Post Jira1");
 		Thread.sleep(5000);
 	}
 
