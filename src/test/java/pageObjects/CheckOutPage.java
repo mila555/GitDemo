@@ -28,6 +28,7 @@ public class CheckOutPage {
 		find(locator).sendKeys(strArg1);
 		System.out.println("branch creation");
 		System.out.println("branch from gitx develop");
+		System.out.println("from gitx master");
 		Thread.sleep(5000);
 	}
 
