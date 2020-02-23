@@ -29,6 +29,7 @@ public class CheckOutPage {
 		System.out.println("branch creation");
 		System.out.println("branch from gitx develop");
 		System.out.println("from gitx master");
+		System.out.println("gitdemomaster");
 		Thread.sleep(5000);
 	}
 
